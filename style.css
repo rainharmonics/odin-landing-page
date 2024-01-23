@@ -14,6 +14,17 @@ a {
     color: #E5E7EB;
 }
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 12px;
+    border: 1px solid #3882F6;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 7px;
+}
+
 /* || Hero Text with Header */
 .hero-text {
     display: flex;
@@ -21,6 +32,7 @@ a {
     background-color: #1F2937;
     
     align-items: center;
+    gap: 100px;
 }
 
 .hero-header {
@@ -48,22 +60,26 @@ a {
 
 .hero-column-one {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
 
-    width: 500px;
+    flex: 1;
 }
 
 .hero-column-two {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    
+    flex: 1;
 }
 
 .hero-main-text {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+
+    margin: 0;
+    padding: 0;
 }
 
 .hero-secondary {
