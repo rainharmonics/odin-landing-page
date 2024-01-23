@@ -39,6 +39,7 @@ p {
     
     align-items: center;
     gap: 100px;
+    padding-bottom: 100px;
 }
 
 .hero-header {
@@ -82,7 +83,7 @@ p {
     align-items: center;
     
     flex: 1;
-    background-color: #a5a6a9;
+    background-color: #88898b;
 }
 
 .hero-main-text {
