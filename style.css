@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto";
+    display: flex;
 }
 
 ul {
@@ -32,7 +33,7 @@ p {
 }
 
 /* || Hero Text with Header */
-.hero-text {
+.sec-one {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -40,6 +41,11 @@ p {
     align-items: center;
     gap: 100px;
     padding-bottom: 100px;
+    width: 1200px;
+    height: auto;
+
+    flex: auto;
+    margin: 0;
 }
 
 .hero-header {
@@ -67,6 +73,8 @@ p {
     gap: 50px;
 
     flex: auto;
+
+    /*border: 2px solid blue;*/
 }
 
 .hero-column-one {
