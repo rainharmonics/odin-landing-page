@@ -23,6 +23,12 @@ button {
     font-size: 18px;
     font-weight: 500;
     padding: 7px;
+    margin-top: 5px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }
 
 /* || Hero Text with Header */
@@ -41,6 +47,7 @@ button {
     align-items: center;
 
     width: 1000px;
+    flex: auto;
 }
 
 .header-logo {
@@ -56,6 +63,9 @@ button {
 .hero-main {
     display: flex;
     width: 1000px;
+    gap: 50px;
+
+    flex: auto;
 }
 
 .hero-column-one {
@@ -63,6 +73,7 @@ button {
     flex-flow: column wrap;
 
     flex: 1;
+    gap: 10px;
 }
 
 .hero-column-two {
@@ -71,6 +82,7 @@ button {
     align-items: center;
     
     flex: 1;
+    background-color: #a5a6a9;
 }
 
 .hero-main-text {
