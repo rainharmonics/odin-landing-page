@@ -2,6 +2,18 @@ body {
     font-family: "Roboto";
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .hero-text {
     display: flex;
     flex-direction: column;
@@ -40,22 +52,19 @@ body {
     width: 500px;
 }
 
+.hero-column-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
 .hero-main-text {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
-.hero-column-two {
-    width: 500px;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
+.hero-secondary {
+    color: #E5E7EB
 }
