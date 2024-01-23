@@ -7,12 +7,15 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     
+    align-items: center;
 }
 
 .hero-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+
+    width: 1000px;
 }
 
 .header-logo {
@@ -23,6 +26,28 @@ body {
 .header-links {
     display: flex;
     gap: 20px;
+}
+
+.hero-main {
+    display: flex;
+    width: 1000px;
+}
+
+.hero-column-one {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 500px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-column-two {
+    width: 500px;
 }
 
 ul {
