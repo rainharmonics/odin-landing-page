@@ -107,3 +107,27 @@ p {
 .hero-secondary {
     color: #E5E7EB
 }
+
+/* || Section 2 of Page */
+.sec-two-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.sec-two {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    padding: 70px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+}
