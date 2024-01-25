@@ -4,6 +4,7 @@ body {
     flex-wrap: wrap;
 
     flex-direction: column;
+    align-items: center;
 }
 
 ul {
@@ -44,11 +45,11 @@ p {
     align-items: center;
     gap: 100px;
     padding-bottom: 100px;
-    width: 1200px;
-    height: auto;
+    height: 450px;
 
     flex: auto;
     margin: 0;
+    align-self: stretch;
 }
 
 .hero-header {
@@ -104,8 +105,8 @@ p {
     padding: 0;
 }
 
-.hero-secondary {
-    color: #E5E7EB
+.secondary-text {
+    color: #E5E7EB;
 }
 
 /* || Section 2 of Page */
@@ -114,21 +115,50 @@ p {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+
+    margin-top: 30px;
 }
 
 .sec-two {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     padding: 50px;
+    padding-bottom: 80px;
 }
 
 .box {
-    max-width: 140px;
+    max-width: 160px;
 }
 
 img {
-    padding: 70px;
-    border: 2px solid #3882F6;
+    padding: 80px;
+    border: 3px solid #3882F6;
     border-radius: 12px;
+}
+
+.box-secondary-text {
+    color: gray;
+    text-align: center;
+}
+
+/* || Section 3 of Page (Quote Section) */
+.sec-three {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    padding: 150px 260px;
+
+    flex: auto;
+    align-self: stretch;
+}
+
+.thor {
+    font-weight: bold;
+    font-size: 20px;
+    
+    margin-top: -140px;
+    margin-right: -400px;
 }
